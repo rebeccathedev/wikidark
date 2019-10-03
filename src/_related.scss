@@ -1,0 +1,13 @@
+.ext-related-articles-card-list .ext-related-articles-card,
+.ext-related-articles-card-list .ext-related-articles-card + .ext-related-articles-card{
+    background-color: $background-color;
+    border: 1px solid $border-color;
+}
+
+.ext-related-articles-card-list h3::after {
+    background: none;
+}
+
+.ra-read-more h2 {
+    color: $text-color;
+}

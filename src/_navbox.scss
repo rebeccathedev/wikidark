@@ -1,0 +1,26 @@
+.navbox {
+    background-color: $note-color !important;
+    border: 1px solid $border-color;
+
+    th {
+        background-color: $note-color !important;
+    }
+}
+
+.navbox-subgroup {
+    background-color: $note-color !important;
+}
+
+.navbox-abovebelow, 
+th.navbox-group, 
+.navbox-subgroup .navbox-title, 
+.navbox-even {
+    background-color: $note-color !important;
+}
+
+tr + tr > .navbox-abovebelow, 
+tr + tr > .navbox-group, 
+tr + tr > .navbox-image, 
+tr + tr > .navbox-list {
+    border-top: 2px solid $background-color;
+}

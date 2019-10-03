@@ -1,0 +1,25 @@
+.client-nojs .search-box .search:focus, 
+.search-overlay .search-box .search:focus {
+    border: 1px solid $border-color;
+    box-shadow: none;
+}
+
+.overlay.search-overlay,
+.overlay.search-overlay .results,
+.overlay.search-overlay .search-feedback {
+    background-color: $background-color;
+}
+
+.page-list li, .topic-title-list li, .site-link-list li,
+.overlay.search-overlay .search-content {
+    border-bottom: 1px solid $border-color;
+    
+}
+
+.page-list .list-thumb {
+    opacity: 0.5;
+}
+
+.page-summary h2, .page-summary h3 {
+    color: #c90000;
+}

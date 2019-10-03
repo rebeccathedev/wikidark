@@ -1,0 +1,42 @@
+.header-container.header-chrome {
+    background-color: $background-color;
+}
+
+.branding-box img {
+    filter: invert(7%) sepia(96%) saturate(5435%) hue-rotate(2deg) brightness(50%) contrast(111%);
+}
+
+.minerva-footer {
+    border: 0;
+}
+
+footer {
+    .last-modified-bar {
+        background-color: $background-color;
+        border: none;
+    }
+
+    > .post-content > h2 {
+        border-bottom: 1px solid $border-color;
+    }
+    
+    .hlist li::after {
+        color: $text-color;
+    }
+}
+
+.search-box .search {
+    background-color: $background-color;
+    box-shadow: none;
+    border: 1px solid $text-color;
+    color: $text-color;
+    background-image: 
+        linear-gradient( $background-color, $background-color ),
+        url('/w/load.php?modules=skins.minerva.content.styles.images&image=input.search%2C.mw-ui-icon-minerva-magnifying-glass%3Abefore&format=original&skin=minerva')
+}
+
+.mw-ui-icon-minerva-mainmenu::before {
+    background-image: 
+        linear-gradient(rgba(255,0,0, 0.75) ,transparent),
+        url(/w/load.php?modules=skins.minerva.icons.images&image=mainmenu&format=original&skin=minerva);
+}

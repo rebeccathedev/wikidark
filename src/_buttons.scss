@@ -1,0 +1,10 @@
+.mw-ui-button {
+    background-color: $toc-color !important;
+    color: $text-color !important;
+    border: 1px solid $border-color;
+}
+
+.mw-ui-button:focus {
+    border: 1px solid $border-color;
+    box-shadow: none;
+}

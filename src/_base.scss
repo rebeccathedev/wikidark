@@ -1,0 +1,20 @@
+*:focus {
+    outline: none !important;
+}
+
+a {
+    color: #c90000 !important;
+}
+
+body {
+    color: $text-color;
+}
+
+blockquote {
+    border-left: 3px solid $border-color;
+}
+
+.minerva__tab-container,
+.page-actions-menu {
+    display: none;
+}

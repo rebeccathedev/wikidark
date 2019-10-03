@@ -1,0 +1,59 @@
+.hatnote, .dablink, .rellink {
+    background-color: $note-color !important;
+}
+
+#content {
+    background-color: $background-color;
+    color: $text-color;
+
+    .gallerybox div.thumb {
+        background-color: $background-color;
+        border: 1px solid $border-color;
+    }
+}
+
+#toc {
+    background-color: $toc-color;
+    border: 0;
+}
+
+#mw-mf-page-center,
+.overlay-enabled {
+    background-color: $background-color;
+}
+
+.mw-parser-output {
+    * {
+        color: $text-color !important;
+    }
+
+    a, a span {
+        color: $link-color !important;
+    }
+
+    img {
+        opacity: .5;
+        transition: opacity .5s ease-in-out;
+    }
+}
+
+.content {
+    table.infobox {
+        border: 1px solid $border-color;
+        background-color: $background-color;
+    }
+
+    table.infobox th,
+    table.infobox td,
+    .mw-parser-output > h2,
+    .section-heading {
+        border-bottom: 1px solid $border-color;
+    }
+}
+
+.wikitable {
+    > tr > th,
+    > * > tr > th {
+        background-color: $note-color !important;
+    }
+}

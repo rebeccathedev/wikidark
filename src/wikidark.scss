@@ -1,0 +1,16 @@
+$text-color: darkred;
+$background-color: black;
+$link-color: #c90000;
+$border-color: red;
+$note-color: #380000;
+$toc-color: #3a0000;
+
+@media (prefers-color-scheme: dark) {
+    @import "base";
+    @import "headfoot";
+    @import "content";
+    @import "buttons";
+    @import "input";
+    @import "images";
+    @import "related";
+}
