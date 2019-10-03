@@ -17,9 +17,9 @@
 }
 
 .page-list .list-thumb {
-    opacity: 0.5;
+    opacity: $image-opacity;
 }
 
 .page-summary h2, .page-summary h3 {
-    color: #c90000;
+    color: $link-color;
 }

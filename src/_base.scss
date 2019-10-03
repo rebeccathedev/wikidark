@@ -3,11 +3,12 @@
 }
 
 a {
-    color: #c90000 !important;
+    color: $link-color !important;
 }
 
-body {
+body, html {
     color: $text-color;
+    background-color: $background-color !important;
 }
 
 blockquote {

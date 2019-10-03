@@ -32,7 +32,7 @@
     }
 
     img {
-        opacity: .5;
+        opacity: $image-opacity;
         transition: opacity .5s ease-in-out;
     }
 }

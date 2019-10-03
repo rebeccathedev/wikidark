@@ -4,6 +4,7 @@ $link-color: #c90000;
 $border-color: red;
 $note-color: #380000;
 $toc-color: #3a0000;
+$image-opacity: 0.5;
 
 @media (prefers-color-scheme: dark) {
     @import "base";
@@ -13,4 +14,5 @@ $toc-color: #3a0000;
     @import "input";
     @import "images";
     @import "related";
+    @import "navbox";
 }
