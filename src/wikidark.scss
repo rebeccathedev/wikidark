@@ -1,10 +1,13 @@
-$text-color: darkred;
+$base-color: red;
 $background-color: black;
-$link-color: #c90000;
-$border-color: red;
+
+$text-color: $base-color;
+$link-color: lighten($base-color, 20%);
+$icon-color: darken($base-color, 20%);
+$border-color: $base-color;
 $note-color: #380000;
 $toc-color: #3a0000;
-$image-opacity: 0.5;
+$image-opacity: 0.4;
 
 @media (prefers-color-scheme: dark) {
     @import "base";
@@ -15,4 +18,5 @@ $image-opacity: 0.5;
     @import "images";
     @import "related";
     @import "navbox";
+    @import "sidebar";
 }

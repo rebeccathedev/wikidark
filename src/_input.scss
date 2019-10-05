@@ -1,3 +1,7 @@
+input::placeholder {
+    color: darken($base-color, 20%);
+}
+
 .client-nojs .search-box .search:focus, 
 .search-overlay .search-box .search:focus {
     border: 1px solid $border-color;

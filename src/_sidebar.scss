@@ -1,0 +1,9 @@
+#mw-mf-page-left {
+    background-color: $background-color;
+    border-right: 1px solid $border-color;
+
+    ul li {
+        background-color: $toc-color;
+        border-top: 1px solid $border-color;
+    }
+}

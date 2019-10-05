@@ -1,0 +1,8 @@
+$svg-search: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>magnifying glass</title><g fill="#36c"><path fill="#{$icon-color}" fill-rule="evenodd" d="M16.474 15.44c1.147-1.375 1.835-3.21 1.835-5.16a7.98 7.98 0 0 0-8.03-8.03 7.98 7.98 0 0 0-8.03 8.03 7.98 7.98 0 0 0 8.03 8.03c1.72 0 3.21-.46 4.47-1.378l4.473 4.474c.46.46 1.262.46 1.836 0l.69-.688-5.278-5.277zm-11.93-5.16c0-3.21 2.524-5.735 5.735-5.735 3.21 0 5.732 2.524 5.732 5.735 0 3.212-2.524 5.736-5.736 5.736-3.212 0-5.736-2.638-5.736-5.736z"/></g></svg>';
+$svg-menu: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><g fill="#54595d"><path fill="#{$icon-color}" d="M1 3v2h18V3zm0 8h18V9H1zm0 6h18v-2H1z"/></g></svg>';
+$svg-alert: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="#54595d"><path fill="#{$icon-color}" fill-rule="evenodd" d="M11.5 2.19C14.09 2.86 16 5.2 16 8v6l2 2v1H2v-1l2-2V8c0-2.8 1.91-5.14 4.5-5.81V1.5C8.5.67 9.17 0 10 0s1.5.67 1.5 1.5v.69zM10 4C7.79 4 6 5.79 6 8v7h8V8c0-2.21-1.79-4-4-4zM8 18h4c0 1.1-.9 2-2 2s-2-.9-2-2z"/></g></svg>';
+
+
+@function svg-url($image) {
+    @return url("data:image/svg+xml;charset=utf-8,#{$image}");
+}

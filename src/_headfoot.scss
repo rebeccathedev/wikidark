@@ -1,3 +1,5 @@
+@import "svg";
+
 .header-container.header-chrome {
     background-color: $background-color;
 }
@@ -31,12 +33,18 @@ footer {
     border: 1px solid $text-color;
     color: $text-color;
     background-image: 
-        linear-gradient( $background-color, $background-color ),
-        url('/w/load.php?modules=skins.minerva.content.styles.images&image=input.search%2C.mw-ui-icon-minerva-magnifying-glass%3Abefore&format=original&skin=minerva')
+        linear-gradient( transparent, transparent ),
+        svg-url($svg-search);
 }
 
 .mw-ui-icon-minerva-mainmenu::before {
     background-image: 
-        linear-gradient(rgba(255,0,0, 0.75) ,transparent),
-        url(/w/load.php?modules=skins.minerva.icons.images&image=mainmenu&format=original&skin=minerva);
+        linear-gradient( transparent, transparent ),
+        svg-url($svg-menu);
+}
+
+.mw-ui-icon-wikimedia-bellOutline-base20::before {
+    background-image: 
+        linear-gradient( transparent, transparent ),
+        svg-url($svg-alert);
 }
