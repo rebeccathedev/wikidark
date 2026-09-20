@@ -25,3 +25,6 @@ The built files are in the `build` directory.
 ## License
 
 MIT
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q3W726YTHU)
